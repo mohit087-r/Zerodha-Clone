@@ -23,7 +23,7 @@ const Pricing = () => {
             <p className='text-[10px] text-[#666666] mt-5 -ml-2' >Intraday and <br /> F&O</p>
           </div>
       </div>
-      <a className='lg:mt-4 col-span-12 text-[#387ed1] font-medium hover:text-[#424554]' href="">See pricing <i class="fa-solid fa-arrow-right"></i></a>
+      <a className='lg:mt-4 col-span-12 text-[#387ed1] font-medium hover:text-[#424554]' href="/pricing">See pricing <i class="fa-solid fa-arrow-right"></i></a>
     </div>
   )
 }
