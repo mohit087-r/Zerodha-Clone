@@ -2,7 +2,7 @@ import React from 'react'
 
 const Ticket = () => {
   return (
-    <div className='xl:px-50 lg:px-20 px-5 mt-10 mb-10'>
+    <div className='xl:px-50 lg:px-20 px-5 my-10'>
       <h1 className='text-xl text-[#666666]'>To create a ticket, select a relevant topic</h1>
       <div className='mt-10 md:grid grid-cols-3 gap-10'>
         <div className='mt-5'>
