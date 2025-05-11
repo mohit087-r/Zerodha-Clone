@@ -4,7 +4,7 @@ import RaiseTicket from './RaiseTicket'
 
 const SupportPage = () => {
   return (
-    <div>
+    <div className=''>
       <Hero/>
       <RaiseTicket/>
     </div>
