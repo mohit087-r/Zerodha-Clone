@@ -13,7 +13,7 @@ const Navbar = () => {
       <nav class="bg-white  xl:mx-50 md:mx-15 mx-[5%]">
         <div class="flex justify-between">
                 <div class="flex shrink-0 items-center">
-                  <Link tosName='cursor-default' href="/"><img class="h-4" src="public/images/logo.svg" alt="logo"/></Link>
+                  <Link className='cursor-default' to="/"><img class="h-4" src="public/images/logo.svg" alt="logo"/></Link>
                 </div>
                 <div>
 
@@ -21,7 +21,7 @@ const Navbar = () => {
                 <div class="flex items-center ml-10 hidden md:block">
                   <Link to="/signup" class="font-normal px-5 text-sm text-gray-500 hover:text-[#387ed1]">Signup</Link>
                   <Link to="/about" class="font-normal px-5 text-sm text-gray-500 hover:text-[#387ed1]">About</Link>
-                  <Link to="/product" class="font-normal px-5 text-sm text-gray-500 hover:text-[#387ed1]">Products</Link>
+                  <Link to="/products" class="font-normal px-5 text-sm text-gray-500 hover:text-[#387ed1]">Products</Link>
                   <Link to="/pricing" class="font-normal px-5 text-sm text-gray-500 hover:text-[#387ed1]">Pricing</Link>
                   <Link to="/support" class="font-normal px-5 text-sm text-gray-500 hover:text-[#387ed1]">Support</Link>
                   <Link to="#" class="font-normal px-5 text-sm "><i class="fa-solid fa-bars"></i></Link>
